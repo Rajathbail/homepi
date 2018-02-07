@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  h1 Register new user
+
+  // register form
+  form(method='POST' action='/devices')
+    div.form-group
+      label(for='name') Name:
+      input#name.form-control(type='text', placeholder='first name' name='name')
+    div.form-group
+      label(for='alias') Alias:
+      input#alias.form-control(type='text', placeholder='Dad, Mom, etc' name='alias')
+    div.form-group
+      label(for='MAC Address') MAC Address:
+      input#macaddress.form-control(type='text', placeholder='Phones, personal device' name='macaddress')
+    button(type='submit') Register
+
+  ul
+    each device, index in devices
+      li= device.name + ' : ' + device.ip + ' : ' + device.mac + ' : ' + device.status

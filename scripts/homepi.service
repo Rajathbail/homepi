@@ -1,0 +1,15 @@
+#put this script in /etc/systemd/system/homepi.service
+#to start the server on boot
+#to toggle the service manually sudo service homepi stop/start
+#to see the log sudo journalctl -n 200/number of lines -f
+
+[Unit]
+Description=Home pi server start
+
+[Service]
+WorkingDirectory=/home/pi/alexa
+ExecStart=/usr/local/bin/npm start
+StandardOutput=null
+Restart=on-failure
+
+[Install]

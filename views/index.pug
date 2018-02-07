@@ -1,0 +1,32 @@
+extends layout
+
+block content
+    .row.justify-content-center.inner-container
+      .col-sm-4.widget
+        h1.device-title Devices Connected
+        ul.list-group
+          each device, index in devices
+              hr
+              li.list-group-item
+                .row.justify-content-center
+                  .col-xs-6.device-item
+                    small= device.name
+                    br
+                    small= device.ip
+                  .col-xs-6.device-item
+                    small= device.mac
+                    br
+                    small= device.status
+
+      .col-sm-4.widget
+        form(method='POST', action='/devices')
+          .form-group
+            label(for='name') Name
+            input#name.form-control(type='text', placeholder='The first name', name='name')
+          .form-group
+            label(for='alias') Alias
+            input#alias.form-control(type='text', placeholder='Like dad, mom, etc', name='alias')
+          .form-group
+            label(for='MAC Address') MAC Address
+            input#macaddress.form-control(type='text', placeholder='Unique to your phone', name='macaddress')
+          button.btn.register(type='submit') Register

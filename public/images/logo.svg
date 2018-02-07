@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="199px" height="80px" viewBox="0 0 199 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="199" height="80"></rect>
+            <text id="Homeºπ" font-family="Montserrat-Medium, Montserrat" font-size="24" font-weight="400">
+                <tspan x="48" y="49" fill="#4A4A4A">Home</tspan>
+                <tspan x="121.224" y="49" fill="#50E3C2">º</tspan>
+                <tspan x="131.04" y="49" letter-spacing="2.2" fill="#50E3C2">π</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
