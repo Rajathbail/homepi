@@ -2,9 +2,13 @@
 	<img src="public/images/logo.svg" height="80" alt="HomePi">
 	<p align="center">Setting up your alexa and raspberrypi <br /> to know who's home and who isn't.</p>
 	<p align="center">
-	<img src="https://img.shields.io/badge/release-v1.0-brightgreen.svg" alt="">
+	<a href="https://github.com/Rajathbail/homepi/releases/tag/v1.0">
+		<img src="https://img.shields.io/badge/release-v1.0-brightgreen.svg" alt="">
+	</a>
 	<img src="https://img.shields.io/badge/size-47.5%20MB-green.svg" alt="">
-	<img src="https://img.shields.io/badge/license-MIT-yellow.svg" alt="">
+	<a href="https://github.com/Rajathbail/homepi/blob/v1.0/LICENSE">
+		<img src="https://img.shields.io/badge/license-MIT-yellow.svg" alt="">
+	</a>
 	</p>
 </div>
 <br />
@@ -31,7 +35,11 @@ When asked about the name <strong>AWS Lambda</strong> checks through the list fr
 
 2. Raspberry Pi
 
-3. Optionally completing
+3. An Amazon AWS Account(If this is your first year with the same everything is free so don't worry about it 😅)
+
+4. An Amazon Dev Account
+
+5. Optionally completing
 [This tutorial](https://developer.amazon.com/alexa-skills-kit/tutorials/fact-skill-1) might help
 
 ## Installing
@@ -58,11 +66,15 @@ If you have any trouble following up until now, [This tutorial](https://develope
 
 #### Part 2 :: Setting up the Lambda Function
 
-Create a new Lambda function and paste the code from the folder titled [ "AWS Lambda"](https://developer.amazon.com/alexa-skills-kit/tutorials/fact-skill-1) into index.js
+Sign into your AWS Dashboard.
+
+Create a new Lambda function and paste the code from the file [ "AWS Lambda/HomeWatch.js"](https://github.com/Rajathbail/homepi/blob/v1.0/AWS%20Lambda/HomeWatch.js) into index.js
 
 There are comments present at all parts to be replaced. This includes all the S3 keys and buckets. (So the skill shouldn't work just yet. 🤖)
 
 #### Part 3 :: Setting up S3 buckets
+
+In your AWS Dashboard:
 
 Create a new S3 Bucket and name it as you would like.
 Take note of the key 📎
@@ -76,7 +88,7 @@ Boot your Raspberry Pi and clone the repository onto it.
 $ git clone https://github.com/rajathbail/homepi
 ```
 
-**In the code present in [Routes/index.js](https://github.com/rajathbail/homepi/routes/index.js):**
+**In the code present in [Routes/index.js](https://github.com/Rajathbail/homepi/blob/v1.0/routes/index.js):**
 1. fill in your AWS Key from earlier in the commented area along with the name of your file you entered in AWS Lambda earlier as the "src_key" and the name of your S3 bucket.
 2. Find the ip address of a device connected to your wifi and replace the last digit with "\*"(This sets it to all ip's in the wifi). Place this as indicated by the comments.
 
@@ -87,7 +99,7 @@ npm start
 ```
 
 ✨<br>
-*BONUS POINTS: to get the server to start every time the RaspberryPi Boots/reboots, Place the file [scripts/homepi.service](https://github.com/Rajathbail/homepi/scripts/homepi.service) in /etc/systemd/system/homepi.service within the RaspberryPi 💯* <br>
+*BONUS POINTS: to get the server to start every time the RaspberryPi Boots/reboots, Place the file [scripts/homepi.service](https://github.com/Rajathbail/homepi/blob/v1.0/scripts/homepi.service) in /etc/systemd/system/homepi.service within the RaspberryPi 💯* <br>
 ✨
 
 
