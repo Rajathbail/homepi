@@ -57,7 +57,7 @@ is {name} home
 ```
 
 2. **General :: WhoAllHome**
-<br /> Create questions such as "Who is home?". (*These are to list all inhabitants whoa are home*) Example below 👇🏽
+<br /> Create questions such as "Who is home?". (*These are to list all inhabitants who are home*) Example below 👇🏽
 ```
 who is home
 ```
@@ -79,7 +79,7 @@ In your AWS Dashboard:
 Create a new S3 Bucket and name it as you would like.
 Take note of the key 📎
 
-**Quick detour to AWS Lambda ->** As indicated in the commented section fill in the name and src_key (the name of the file into which your data will eventually be stored 😁) of your bucket as indicated. Okay now back to our scheduled program 📺
+**Quick detour to AWS Lambda ->** As indicated in the commented section fill in the name and src_key (the name of the file into which your data will eventually be stored 😁) of your bucket as indicated. Okay back to our scheduled programming 📺
 
 #### Part 4 :: Setting up the Raspberry Pi
 
