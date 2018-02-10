@@ -1,17 +1,19 @@
 <div align="center">
-	<img src="public/images/logo.svg" height="80" alt="HomePi">
-	<p align="center">Setting up your alexa and raspberrypi <br /> to know who's home and who isn't.</p>
+	<img src="HomePi.png" height="600" alt="HomePi">
+	<br />
 	<p align="center">
-	<a href="https://github.com/Rajathbail/homepi/releases/tag/v1.0">
-		<img src="https://img.shields.io/badge/release-v1.0-brightgreen.svg" alt="">
-	</a>
-	<img src="https://img.shields.io/badge/size-47.5%20MB-green.svg" alt="">
-	<a href="https://github.com/Rajathbail/homepi/blob/v1.0/LICENSE">
-		<img src="https://img.shields.io/badge/license-MIT-yellow.svg" alt="">
-	</a>
+		<a href="https://github.com/Rajathbail/homepi/releases/tag/v1.0">
+			<img src="https://img.shields.io/badge/release-v1.0-brightgreen.svg" alt="">
+		</a>
+		<img src="https://img.shields.io/badge/size-47.5%20MB-green.svg" alt="">
+		<a href="https://github.com/Rajathbail/homepi/blob/v1.0/LICENSE">
+			<img src="https://img.shields.io/badge/license-MIT-yellow.svg" alt="">
+		</a>
 	</p>
 </div>
 <br />
+
+
 
 ## The Set up
 
