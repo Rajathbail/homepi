@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="HomePi.png" height="600" alt="HomePi">
+	<img src="HomePi.png" alt="HomePi">
 	<br />
 	<p align="center">
 		<a href="https://github.com/Rajathbail/homepi/releases/tag/v1.0">
