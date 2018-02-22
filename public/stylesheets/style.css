@@ -1,234 +1,263 @@
-body{
-    font-family: 'Montserrat', sans-serif;
+body {
+	font-family: "Montserrat", sans-serif;
 }
 
 /*Navbar styling*/
-nav{
-    text-align: center;
-    width: 100%;
+
+nav {
+	text-align: center;
+	width: 100%;
 }
 
-.header{
-    font-size: 20px;
-    color: #4A4A4A;
-    font-weight: 500;
-    padding: 20px;
-    border-bottom: 3px solid #f5f5f5;
+.header {
+	font-size: 20px;
+	color: #4A4A4A;
+	font-weight: 500;
+	padding: 20px;
+	border-bottom: 3px solid #F5F5F5;
 }
 
-.header span{
-    color: #50E3C2;
+.header span {
+	color: #50E3C2;
 }
 
 /*Widgets*/
-.widget{
-    background: #FFFFFF;
-    box-shadow: 0 0 10px 0 #EAEAEA;
-    border-radius: 10px;]
-    padding: 10px;
-    margin: 15px;
-    max-width: 355px;
+
+.widget {
+	background: #FFF;
+	-webkit-box-shadow: 0 0 10px 0 #EAEAEA;
+	box-shadow: 0 0 10px 0 #EAEAEA;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 15px;
+	max-width: 355px;
 }
 
-.device-title{
-    font-size: 16px;
-    color: #50E3C2;
-    font-weight: 400;
-    width: 100%;
-    text-align: center;
-    padding-top: 25px;
+.device-title {
+	font-size: 16px;
+	color: #50E3C2;
+	font-weight: 400;
+	width: 100%;
+	text-align: center;
+	padding-top: 25px;
 }
 
-.list-group{
-    margin-bottom: 40px;
+.list-group {
+	margin-bottom: 40px;
 }
 
-.device-item{
-    margin: 0px 10px 0px 10px;
+.device-item {
+	margin: 0 10px 0 10px;
 }
 
-.list-group-item{
-    border: none;
+.list-group-item {
+	border: none;
 }
 
-hr{
-    border: 2px solid #F5F5F5;
-    width: 290px;
+hr {
+	border: 2px solid #F5F5F5;
+	width: 290px;
 }
-
 
 /* Form */
 
-form{
-    padding: 40px 20px 40px 20px;
+form {
+	padding: 40px 20px 40px 20px;
 }
 
-.form-control::placeholder{
-    font-size: 12px;
-    color: #D8D8D8;
-    font-weight: 500;
+.form-control::-webkit-input-placeholder {
+	font-size: 12px;
+	color: #D8D8D8;
+	font-weight: 500;
 }
 
-.form-group label{
-    font-size: 14px;
-    color: #4A4A4A;
-    font-weight: 500;
+.form-control:-ms-input-placeholder {
+	font-size: 12px;
+	color: #D8D8D8;
+	font-weight: 500;
 }
 
-.register{
-    background: #50E3C2;
-    border-radius: 4px;
-    font-size: 14px;
-    color: #FFFFFF;
-    font-weight: 400;
-    height: 45px;
-    margin-top: 10px;
-    padding: 10px;
-    width: 100%;
+.form-control::placeholder {
+	font-size: 12px;
+	color: #D8D8D8;
+	font-weight: 500;
 }
 
-button:hover{
-    background: #00AF88;
-    color: #fff;
+.form-group label {
+	font-size: 14px;
+	color: #4A4A4A;
+	font-weight: 500;
+}
+
+.register {
+	background: #50E3C2;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #FFF;
+	font-weight: 400;
+	height: 45px;
+	margin-top: 10px;
+	padding: 10px;
+	width: 100%;
+}
+
+button:hover {
+	background: #00AF88;
+	color: #FFF;
 }
 
 /* Message styles */
 
-.message-card{
-    padding: 0px 40px;
+.message-card {
+	padding: 0 40px;
 }
 
-.thankyou{
-    background: #50E3C2;
-    border-radius: 4px;
-    font-size: 14px;
-    color: #FFFFFF;
-    font-weight: 400;
-    height: 40px;
-    margin-top: 10px;
-    padding: 10px;
-    width: 100%;
-    margin-bottom: 40px;
+.thankyou {
+	background: #50E3C2;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #FFF;
+	font-weight: 400;
+	height: 40px;
+	margin-top: 10px;
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 40px;
 }
 
-a:hover{
-    background: #00AF88;
-    color: #fff;
+a:hover {
+	background: #00AF88;
+	color: #FFF;
 }
-body{
-    font-family: 'Montserrat', sans-serif;
+
+body {
+	font-family: "Montserrat", sans-serif;
 }
 
 /*Navbar styling*/
-nav{
-    text-align: center;
-    width: 100%;
+
+nav {
+	text-align: center;
+	width: 100%;
 }
 
-.header{
-    font-size: 20px;
-    color: #4A4A4A;
-    font-weight: 500;
-    padding: 20px;
-    border-bottom: 3px solid #f5f5f5;
+.header {
+	font-size: 20px;
+	color: #4A4A4A;
+	font-weight: 500;
+	padding: 20px;
+	border-bottom: 3px solid #F5F5F5;
 }
 
-.header span{
-    color: #50E3C2;
+.header span {
+	color: #50E3C2;
 }
 
 /*Widgets*/
-.widget{
-    background: #FFFFFF;
-    box-shadow: 0 0 10px 0 #EAEAEA;
-    border-radius: 10px;]
-    padding: 10px;
-    margin: 15px;
-    max-width: 355px;
+
+.widget {
+	background: #FFF;
+	-webkit-box-shadow: 0 0 10px 0 #EAEAEA;
+	box-shadow: 0 0 10px 0 #EAEAEA;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 15px;
+	max-width: 355px;
 }
 
-.device-title{
-    font-size: 16px;
-    color: #50E3C2;
-    font-weight: 400;
-    width: 100%;
-    text-align: center;
-    padding-top: 25px;
+.device-title {
+	font-size: 16px;
+	color: #50E3C2;
+	font-weight: 400;
+	width: 100%;
+	text-align: center;
+	padding-top: 25px;
 }
 
-.list-group{
-    margin-bottom: 40px;
+.list-group {
+	margin-bottom: 40px;
 }
 
-.device-item{
-    margin: 0px 10px 0px 10px;
+.device-item {
+	margin: 0 10px 0 10px;
 }
 
-.list-group-item{
-    border: none;
+.list-group-item {
+	border: none;
 }
 
-hr{
-    border: 2px solid #F5F5F5;
-    width: 290px;
+hr {
+	border: 2px solid #F5F5F5;
+	width: 290px;
 }
-
 
 /* Form */
 
-form{
-    padding: 40px 20px 40px 20px;
+form {
+	padding: 40px 20px 40px 20px;
 }
 
-.form-control::placeholder{
-    font-size: 12px;
-    color: #D8D8D8;
-    font-weight: 500;
+.form-control::-webkit-input-placeholder {
+	font-size: 12px;
+	color: #D8D8D8;
+	font-weight: 500;
 }
 
-.form-group label{
-    font-size: 14px;
-    color: #4A4A4A;
-    font-weight: 500;
+.form-control:-ms-input-placeholder {
+	font-size: 12px;
+	color: #D8D8D8;
+	font-weight: 500;
 }
 
-.register{
-    background: #50E3C2;
-    border-radius: 4px;
-    font-size: 14px;
-    color: #FFFFFF;
-    font-weight: 400;
-    height: 45px;
-    margin-top: 10px;
-    padding: 10px;
-    width: 100%;
+.form-control::placeholder {
+	font-size: 12px;
+	color: #D8D8D8;
+	font-weight: 500;
 }
 
-button:hover{
-    background: #00AF88;
-    color: #fff;
+.form-group label {
+	font-size: 14px;
+	color: #4A4A4A;
+	font-weight: 500;
+}
+
+.register {
+	background: #50E3C2;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #FFF;
+	font-weight: 400;
+	height: 45px;
+	margin-top: 10px;
+	padding: 10px;
+	width: 100%;
+}
+
+button:hover {
+	background: #00AF88;
+	color: #FFF;
 }
 
 /* Message styles */
 
-.message-card{
-    padding: 0px 40px;
+.message-card {
+	padding: 0 40px;
 }
 
-.thankyou{
-    background: #50E3C2;
-    border-radius: 4px;
-    font-size: 14px;
-    color: #FFFFFF;
-    font-weight: 400;
-    height: 40px;
-    margin-top: 10px;
-    padding: 10px;
-    width: 100%;
-    margin-bottom: 40px;
+.thankyou {
+	background: #50E3C2;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #FFF;
+	font-weight: 400;
+	height: 40px;
+	margin-top: 10px;
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 40px;
 }
 
-a:hover{
-    background: #00AF88;
-    color: #fff;
+aa:hover {
+	background: #00AF88;
+	color: #FFF;
 }
